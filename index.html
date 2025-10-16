@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="format-detection" content="telephone=no">
+    <title>Anchor Partners - Solicitors, Advocates & Consultants</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styles for the Google Form container */
+        .google-form-container {
+            width: 100%;
+            margin-top: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        
+        .google-form-container iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+            border-radius: 4px;
+        }
+        
+        .form-instructions {
+            margin-bottom: 15px;
+            color: #555;
+            font-size: 14px;
+            text-align: center;
+        }
+        
+        @media (max-width: 768px) {
+            .google-form-container iframe {
+                height: 800px; /* More height for mobile to ensure form is fully visible */
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">ANCHOR <span>PARTNERS</span></a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Solicitors, Advocates & Consultants</h1>
+                <p>Providing exceptional legal services with integrity, professionalism and commitment to excellence.</p>
+                <a href="#contact" class="btn">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Us</h2>
+                <p>Anchor Partners is a full-service law firm providing comprehensive legal solutions to individuals and businesses across various sectors.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Story</h3>
+                    <p>Founded with a vision to deliver exceptional legal services, Anchor Partners has grown to become a trusted name in the legal industry. Our team of experienced professionals is dedicated to providing tailored solutions that meet our clients' unique needs.</p>
+                    <p>We combine legal expertise with business acumen to deliver results that matter. Our approach is client-centered, focusing on understanding your objectives and working diligently to achieve them.</p>
+                    <p>At Anchor Partners, we pride ourselves on our integrity, professionalism, and commitment to excellence in every aspect of our practice.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Law firm office">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Legal Services</h2>
+                <p>We offer a wide range of legal services designed to meet the diverse needs of our clients.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3>Regulatory Compliance & Risk Management</h3>
+                    <p style="margin-bottom: 16px;">Comprehensive compliance solutions across Sub-Saharan Africa to navigate complex regulatory landscapes and business risks effectively.</p>
+                    <ul>
+                        <li>Compliance Audits</li>
+                        <li>Regulatory Compliance</li>
+                        <li>Risk Management</li>
+                        <li>Policy Development</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-satellite-dish"></i>
+                    </div>
+                    <h3>Satellite and Mobile Communications Licensing</h3>
+                    <p style="margin-bottom: 16px;">Expert guidance through the complex process of obtaining licenses and permits for satellite and mobile communications services.</p>
+                    <ul>
+                        <li>Licensing Applications</li>
+                        <li>Regulatory Representation</li>
+                        <li>Compliance Advisory</li>
+                        <li>Policy Advocacy</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Company Secretarial Services</h3>
+                    <p style="margin-bottom: 16px;">Professional company secretarial services to ensure your business remains compliant with all statutory and regulatory requirements.</p>
+                    <ul>
+                        <li>Corporate Governance</li>
+                        <li>Board Support</li>
+                        <li>Compliance Filings</li>
+                        <li>Shareholder Services</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Real Estate Transactions & Advisory</h3>
+                    <p style="margin-bottom: 16px;">End-to-end legal support for all types of real estate transactions, from due diligence to closing.</p>
+                    <ul>
+                        <li>Property Acquisition</li>
+                        <li>Leasing Agreements</li>
+                        <li>Due Diligence</li>
+                        <li>Dispute Resolution</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-sitemap"></i>
+                    </div>
+                    <h3>Corporate Structuring & Governance</h3>
+                    <p style="margin-bottom: 16px;">Strategic advice on corporate structures and governance frameworks to optimize your business operations.</p>
+                    <ul>
+                        <li>Corporate Structuring</li>
+                        <li>Governance Frameworks</li>
+                        <li>Compliance Advisory</li>
+                        <li>Shareholder Agreements</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Strategic Legal Consulting</h3>
+                    <p style="margin-bottom: 16px;">Tailored legal consulting services to help businesses navigate complex legal landscapes and achieve their strategic goals across Sub-Saharan Africa with global EMEA insights.</p>
+                    <ul>
+                        <li>Continental Legal Strategy</li>
+                        <li>Cross-border Business Advisory</li>
+                        <li>International Contract Negotiation</li>
+                        <li>Multi-jurisdictional Dispute Resolution</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="section" id="team">
+        <div class="container">
+            <div class="section-title">
+                <h2>Meet Our Team</h2>
+                <p>Meet our dedicated team of legal professionals committed to delivering exceptional service.</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://i.postimg.cc/0NckzjvM/Nick.jpg" style="width: 100%; height: 100%; object-fit: contain;" alt="Responsive image of Nicholson Okwori">
+                    </div>
+                    <div class="member-info">
+                        <h3>Nicholson Okwori</h3>
+                        <p>Senior Partner</p>
+                        <p style="color: black; font-size: 15px; font-weight: normal;">Nicholson Okwori is a seasoned legal practitioner with over 16 years of experience spanning telecommunications, real estate, corporate governance, compliance, and regulatory services. He is the Managing Partner at Anchor Partners, offering tailored legal and consultancy services across Nigeria and Sub-Saharan Africa. His past roles include key legal and compliance positions at Avanti Satellite Communications, Vodacom Business Africa (now Inq), and NatCom Development & Investment Ltd.
+
+Nicholson has negotiated and implemented over 500,000 complex contracts globally and played pivotal roles in humanitarian initiatives with CeCe Yara Foundation and JODED Foundation, including UN-Women's EVAWG campaign. He holds a Law degree from Benue State University and a Telecoms mini-MBA from Falconbury, UK. He is a member of NBA, CIN, and CRMI, and currently serves as a Non-Executive Director on multiple boards across various sectors. Nicholson is known for his solution-driven approach and passion for client success.</p>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/nicholson-okwori-2a750922"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://x.com/nichospecie?t=-oa2imDwGBL4sqBSin3X0Q&s=08"><i class="fab fa-twitter"></i></a>
+                            <a href="mailto:nichospecie@nigerianbar.ng"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://i.postimg.cc/2jB1Kdm0/mathew.jpg" style="width: 100%; height: 100%; object-fit: contain;" alt="Responsive image of Mathew Ojonimi Onoja">
+                    </div>
+                    <div class="member-info">
+                        <h3>Mathew Ojonimi Onoja</h3>
+                        <p>Partner</p>
+                        <p style="color: black; font-size: 15px; font-weight: normal;">Matthew Ojonimi Onoja is an innovative and passionate Attorney and Solicitor, highly effective at developing creative case strategies and persuasive briefs. He holds LL.B (Hons.) from the Benue State University, Makurdi (now Moses Adasu University, Makurdi) and a BL from the Nigeria Law School. He was called to the Nigerian Bar in the year 2011.
+
+He is a member of the Nigerian Bar Association (NBA) and has interests in the areas of Civil and Criminal Litigations, Corporate, Commercial and Property Law Practice.
+</p>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/company/anchor-partners"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://x.com/anchorpartners?t=-oa2imDwGBL4sqBSin3X0Q&s=08"><i class="fab fa-twitter"></i></a>
+                            <a href="mailto:anchopartners@gmail.com"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://i.postimg.cc/28BgWMzz/1745432402579-1.jpg" style="width: 100%; height: 100%; object-fit: contain;" alt="Responsive image of Agada Sunday August">
+                    </div>
+                    <div class="member-info">
+                        <h3>Agada Sunday August</h3>
+                        <p>Administrative Manager</p>
+                        <p style="color: black; font-size: 15px; font-weight: normal;">Agada Sunday August is a passionate Web Developer, skilled Social Media Marketer, and an aspiring Data Scientist with a strong academic foundation in Computer Science (BSc, University of Calabar, 2019-2024). With hands-on experience in administrative roles at Biodun Adeyemi & Associates (Law Firm) and DM Sheffield, he combines technical expertise with organizational efficiency and communication skills.
+
+Sunday is driven by a desire to build data-driven digital solutions, enhance user experiences, and leverage social media for impactful brand growth. He is continuously evolving, learning, and positioning himself at the intersection of technology, data, and innovation.
+</p>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/agada-sunday-august-142538362"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://x.com/First_Catalyst?t=TY2Vbt3KkuhTvHxevUflbA&s=09"><i class="fab fa-twitter"></i></a>
+                            <a href="mailto:sundayaugust101@gmail.com"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <p>Get in touch with our team for expert legal advice and services.</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Address</h4>
+                                <p>Suite D-238, RD 1 Ikota Shopping Complex, VGC Lekki Lagos</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p>+234 806 942 1785</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>anchopartners@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map-container">
+                        <!-- You can embed a Google Map here -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.123456789012!2d3.567890123456789!3d6.456789012345678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMjcnMjQuNCJOIDPCszMzJzUxLjgiRQ!5e0!3m2!1sen!2sng!4v1234567890123!5m2!1sen!2sng" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Us a Message</h3>
+                    <p class="form-instructions">Please use the form below to get in touch with us.</p>
+                    <div class="google-form-container">
+                        <!-- Replace the src URL with your Google Form embed URL -->
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc3WEUXBHqU-W62O6SxtVp-3sj17JphC1qNFUmX_E6HkhCfZg/viewform?embedded=true" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3>About Us</h3>
+                    <p>Anchor Partners is a full-service law firm providing comprehensive legal solutions to individuals and businesses across various sectors.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Regulatory Compliance</a></li>
+                        <li><a href="#">Communications Licensing</a></li>
+                        <li><a href="#">Company Secretarial</a></li>
+                        <li><a href="#">Real Estate Advisory</a></li>
+                        <li><a href="#">Corporate Governance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Suite D-238, RD 1 Ikota Shopping Complex, VGC Lekki Lagos</p>
+                    <p><i class="fas fa-phone-alt"></i> +234 806 942 1785</p>
+                    <p><i class="fas fa-envelope"></i> anchopartners@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Anchor Partners. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const nav = document.getElementById('nav');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            nav.classList.toggle('active');
+            mobileMenuBtn.innerHTML = nav.classList.contains('active') ? 
+                '<i class="fas fa-times"></i>' : '<i class="fas fa-bars"></i>';
+        });
+        
+        // Close mobile menu when clicking on a link
+        const navLinks = document.querySelectorAll('nav ul li a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                nav.classList.remove('active');
+                mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+            });
+        });
+        
+        // Header scroll effect
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
